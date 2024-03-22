@@ -191,5 +191,93 @@ link{
     font-weight: bold;
     border-radius: 10px;
 }
+.under-line{
+    padding-left:"50px";
+}
 
 
+@media (max-width: 768px) {
+    
+    .details {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    .hero-container {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .socail-websites {
+        margin-left: 20px;
+    }
+
+    .mail {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .about {
+        margin-top: 100px;
+    }
+
+    .image1,
+    .image2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .paragraph {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .hand-iamge {
+        display: none;
+    }
+
+    .background-image {
+        margin-left: 0;
+    }
+
+    .mail {
+        margin-left: 20px;
+        margin-top: 0;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+   
+
+    .about {
+        flex-direction: column;
+    }
+
+    .image1 {
+        width: 100%;
+        margin-left: 0;
+        background-size: contain;
+    }
+
+    .image2 {
+        width: 100%;
+    }
+
+    .paragraph {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .background-image {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .mail {
+        margin-left: 20px;
+        margin-top: 0;
+    }
+}

@@ -88,7 +88,7 @@ function Home() {
         </div>
         <div><p className='mail'>sinhaanishkumar@outlook.com <sapn>____</sapn><br></br></p></div>
         </div>
-        <div className='about' style={{marginLeft:"0px",marginRight:"0px"}}>
+        <div className='about'>
             <div className='image1' >
                <img src={HandImage} alt='hand' className='hand-iamge' /><br></br>
                <img src={Facebook} className='social-images' alt='facebook' style={{marginLeft:"30px"}}/><br></br>
@@ -111,7 +111,7 @@ function Home() {
 
               
                <br></br> When he’s not designing, he’s probably hanging out with his girlfriend, watching series, sketching or messing around on something inspired by YouTube tutorials.</p>
-               <sapn style={{paddingLeft:"50px"}}> ________________________________________________________</sapn>   
+               <sapn className="under-line"> ________________________________________________________</sapn>   
            
             </div>
             <div className='image2'>
