@@ -65,16 +65,15 @@ function Home() {
                     <button className='get-in-touch'>Get in Touch</button>
             </div>
             <div className='hero-container'>
-    <div className="hero-image-wrapper">
+        <div className="hero-image-wrapper">
         <img src={HeroImage} alt="hero" className='hero-image' />
-    </div>
-</div>
+        </div>
+        </div>
 
             
         </div>
         <div className='images'>
-        
-        <div className='socail-websites'>
+         <div className='socail-websites'>
             <img src={Facebook} className='social-images' alt='facebook'/><br></br>
             <img src={Instagarm} alt="instagram" className='social-images'/><br></br>
             <img src={Github} alt='github' className='social-images'/><br></br>

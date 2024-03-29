@@ -242,11 +242,37 @@ nav ul {
         margin-left: 0;
     }
     .background-image {
-        width: 100%; 
+        width: 100px; 
         margin-top: 20px;
     }
     .ash-iamge {
-        width: 80%; 
+        width: 20%; 
         margin: 20px 0;
+    }
+    .paragraph {
+        width: auto;
+        text-align: center;
+        padding: 0 20px; /* Adjust padding for better readability */
+    }
+    .under-line {
+        display: block;
+        text-align: center;
+        margin: 20px auto; 
+    }
+    .mail {
+        text-align: center !important;
+        margin-left: 200px !important;
+    }
+    .ash-iamge {
+        width: 80% !important; 
+        margin: 20px auto !important; 
+    }
+    .image2 {
+        margin-left: 0!important;
+        text-align: center !important; 
+    }
+    .background-image {
+        width: 100% !important; 
+        margin-top: 20px !important; 
     }
 }
