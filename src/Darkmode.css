@@ -1,8 +1,10 @@
-
+.dark-mode-container{
+    background-color:  black;
+}
 li{
     list-style: none;
     font-weight: bolder;
-    color: black;
+    color: white;
       
    
 }
@@ -13,17 +15,25 @@ nav {
     left: 0;
     width: 100%;
     z-index: 999;
+    color: white;
    
 }
+.dark-theme{
+    width:20px;
+}
+
+
 
 nav ul {
     display: flex;
     justify-content: space-around;
+    color: white;
    
     
 }
 .name{
     padding-right: 350px;
+    color: white;
 }
 
 .details{
@@ -33,7 +43,7 @@ nav ul {
 }
 .cv-download{
     border: none;
-    box-shadow: 0 8px 16px  0 rgb(0,0, 0,0.24),0 17px 50px rgb(0,0,0,0.19);
+    box-shadow: 0 8px 16px  0 rgba(61, 60, 60, 0.24),0 17px 50px rgb(0,0,0,0.19);
     text-align: center;
     background-color:  #DF580C;
     color: white;
@@ -41,18 +51,19 @@ nav ul {
     box-shadow:  #DF580C;
     margin-left: 20px;
     border-radius: 5px;
+    border: 2px solid white; 
 
 }
-.get-in-touch{
-    border: none;
-    box-shadow: 0 8px 16px  0 rgb(0,0, 0,0.24),0 17px 50px rgb(0,0,0,0.19);
+.get-in-touch {
+    border: 2px solid white; 
+    box-shadow: 0 8px 16px 0 rgba(82, 80, 80, 0.24), 0 17px 50px rgba(0, 0, 0, 0.19);
     text-align: center;
-    background-color:black;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.8)); 
     color: white;
     font-weight: bold;
-    box-shadow: #DF580C;
     margin-left: 20px;
     border-radius: 5px;
+    border-color: white;
 }
 
 
@@ -156,6 +167,7 @@ nav ul {
 
 .image2{
     flex: 1;
+    
 }
 .heading{
     font-weight: bold;
@@ -174,13 +186,15 @@ nav ul {
 }
 .background-image{
     width:260px;
+    
 }
 .ash-iamge{
-    width:200px;
+    width:300px;
 }
 
 
-   
+
+  
 
     
 @media (max-width: 768px) {
